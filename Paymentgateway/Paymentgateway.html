@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Gateway</title>
+<link rel="stylesheet" href="paymentgateway.css"
+</head>
+<body>
+    <form action="">
+       <div id="heading"><img src="logo2.jpg" height="110rem" width="100rem" align="left">Payment Gateway<p class="heading">copywrite@indiangovenment</p></div>
+       <marquee id="m"> ***This is the gateway to pay your fees for college. Please do not refresh this page, close this window or hit back button. 
+        Kindly fill you details correctly, if something is filled wrong and money is deducted then it is your responsibility. ***</marquee>
+       <h2 class="wcenter">Contact Information</h2><br>
+       <p class="inputs">Name: &emsp;&emsp;&emsp;<input type="text" name="name" required></p>
+       <p class="inputs"><fieldset>
+           <legend>Gender</legend><br>&nbsp;
+        Male<input type="radio" name="gender" id="male" required>&emsp;&emsp;
+        Female <input type="radio" name="gender" id="female" required></p>
+       </fieldset><br>
+       <p>Address: &emsp;&emsp;&emsp;<textarea name="address" id="address" cols="35" rows="3" required></textarea></p>
+       <p>Email: &emsp;&emsp;&emsp;&emsp;<input type="email" name="email" id="email"></p>
+       <p>Area Pincode: &emsp;<input type="number" name="pincode" id="pincode" required></p>
+       <p>Mobile number: &nbsp;<input type="number" name="mobile" id="mobile" required></p>
+       <hr><h2 class="wcenter">Payment Information</h2>
+       <p>Card Type:&emsp;&emsp;
+           <select name="card_type" id="card_type" required>
+               <option value="">==select a card type==</option>
+               <option value="Mastercard">Mastercard</option>
+               <option value="Visa">Visa</option>
+               <option value="RuPay">RuPay</option>
+           </select><br><br>
+           Card Nunber: &emsp;<input type="number" name="cnumber" id="cnumber" required><br><br>
+           Expiring date: &emsp;<input type="date" name="exp_date" id="exp_date" required><br><br>
+           CVV: &emsp;&emsp;&emsp;&emsp;<input type="password" name="CVV" id="CVV" required><br><br>
+           <div class="lastbutton">
+            <!-- <input type="submit" value="Pay Now"> -->
+          <a href="file:///C:/Users/Preeti%20Saxena/CPrograms/Html/Paymentgateway/submit.htm"><input type="button" type="submit" value="Pay Now"></a>
+           <input type="reset" value="Reset Information"></div>
+       </p>
+    </form>
+    <div class="lower">
+    <div id="footer">
+        <p>All copyright reserved © 2022</p>
+    </div>
+    </div>
+    
+</body>
+</html>
